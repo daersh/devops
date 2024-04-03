@@ -20,13 +20,13 @@
     const result = ref(0)
   
     const plus = async() => {
-      const response = await fetch(`http://localhost:7777/plus?num1=${num1.value}&num2=${num2.value}`);
+      const response = await fetch(`http://localhost:8055/plus?num1=${num1.value}&num2=${num2.value}`);
       // const response = await fetch(`http://localhost:5173/api/plus?num1=${num1.value}&num2=${num2.value}`);
       const data =  await response.json();
       result.value = data.sum;
     }
     const check = async() => {
-      const response = await fetch(`http://localhost:7777`);
+      const response = await fetch(`http://localhost:8055`);
       const data = response;
       console.log(data);
     }
