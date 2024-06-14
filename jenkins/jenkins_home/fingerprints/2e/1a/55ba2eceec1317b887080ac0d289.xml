@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-11 02:48:46.949 UTC</timestamp>
+  <md5sum>2e1a55ba2eceec1317b887080ac0d289</md5sum>
+  <fileName>Credential id=ssh-jenkins-github--key name=daersh (비밀키)</fileName>
+  <usages>
+    <entry>
+      <string>free-first-project</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

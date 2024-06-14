@@ -1,0 +1,25 @@
+Started by GitHub push by daersh
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free-first-project
+The recommended git tool is: NONE
+using credential ssh-jenkins-github--key
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/free-first-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/daersh/jenkins-boot.git/ # timeout=10
+Fetching upstream changes from https://github.com/daersh/jenkins-boot.git/
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_SSH to set credentials 비밀키
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- https://github.com/daersh/jenkins-boot.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 58ca9ae31255293e9f39563d363e3fda3ba5ef99 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 58ca9ae31255293e9f39563d363e3fda3ba5ef99 # timeout=10
+Commit message: "Update CalculatorController.java"
+ > git rev-list --no-walk ad59e668414f5f42fb3f21c08f3e761c4cf2a9e6 # timeout=10
+[free-first-project] $ /bin/sh -xe /tmp/jenkins13078187928389398668.sh
++ ehco hello world!
+/tmp/jenkins13078187928389398668.sh: 2: ehco: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

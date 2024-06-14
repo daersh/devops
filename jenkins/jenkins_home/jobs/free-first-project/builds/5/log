@@ -1,0 +1,25 @@
+Started by user [8mha:////4K9g+9a30aMzA4S8TvUBjBEiUYQPXM3dQanX6Nnx+L+RAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYe/dLi1CL9lMTUouIMAOp9JXDBAAAA[0m이현우
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free-first-project
+The recommended git tool is: NONE
+using credential ssh-jenkins-github--key
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/free-first-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/daersh/jenkins-boot.git/ # timeout=10
+Fetching upstream changes from https://github.com/daersh/jenkins-boot.git/
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_SSH to set credentials 비밀키
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- https://github.com/daersh/jenkins-boot.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ad59e668414f5f42fb3f21c08f3e761c4cf2a9e6 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad59e668414f5f42fb3f21c08f3e761c4cf2a9e6 # timeout=10
+Commit message: "푸시푸시"
+ > git rev-list --no-walk ad59e668414f5f42fb3f21c08f3e761c4cf2a9e6 # timeout=10
+[free-first-project] $ /bin/sh -xe /tmp/jenkins1474830112561774518.sh
++ ehco hello world!
+/tmp/jenkins1474830112561774518.sh: 2: ehco: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
